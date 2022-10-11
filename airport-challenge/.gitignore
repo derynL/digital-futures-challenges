@@ -1,0 +1,7 @@
+node_modules
+.prettierrc
+INSTRUCTIONS.md
+screenshots
+spec
+package-lock.json
+package.json
