@@ -1,36 +1,11 @@
-# Scrabble Challenge - this time in Java!
-
-Welcome to the Scrabble challenge!
-
-## Learning Objectives
-- Build a simple program using functions, loops, and flow control
-- Use `git` & GitHub to commit work and open a Pull Request
-
-## Instructions
-
-1. Fork this repository and then clone your copy:
-```sh
-$ git clone <YOUR GITHUB DETAILS>/scrabble-challenge.git && cd scrabble-challenge
-```
-2. Run the tests from IntelliJ. There should be a failing test to begin with. You can run your test suite in a few ways:
-   1. Right-click on the project and then select `Run all Tests`
-   2. Right-click on the `ScrabbleTest` and click `Run ScrabbleTest`
-   3. Open the class file `ScrabbleTest` and click the "Play" button to the left of the class declaration
-
-Your first error when running the tests should be this:
-
-![Initial Error](images/InitialError.png)
-
-3. In GitHub, [open a Pull Request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) from your forked repository to the challenge repository.
-4. Implement the criteria below locally and [push your code](https://docs.github.com/en/github/managing-files-in-a-repository/adding-a-file-to-a-repository-using-the-command-line) to your repository! Every push to a branch that has an open Pull Request will update it automatically with your changes.
+# Scrabble Challenge in Java
 
 # Task
 
 Given a word, compute the scrabble score for that word.
 
-##### Letter Values
+### Letter Values
 
-You'll need these:
 
 | Letter                        | Value  |
 | ----                          |  ----  |
@@ -96,3 +71,13 @@ class ScrabbleRunner {
 > You can play a double or a triple letter.
 
 > You can play a double or a triple word.
+
+## Project Review and Roadmap
+
+- My main takeaways from this project:
+   - Taking a challenge I had already completed in JavaScript and making it work/ improving upon the original in Java really helped me to draw clear distinctions between the two languages, as well as improving my understanding of their operational similarities.
+   - As the tests were already written, I had to think in terms of code that would pass those tests, and why it should.
+   - The extended criteria offered a great opportunity to work on more detailed aspects of Java, such as overloading constructor methods.
+- What I would do differently if I were to do this again:
+   - I would break my score method into several smaller private helper methods in order to maintain single responsibility principles
+   - I would write my own tests in order to get a better grasp of testing frameworks for Java
