@@ -1,0 +1,71 @@
+<html lang="en" style="font-size: 1.6rem; height: 100%">
+  <head>
+    <%- include ('../views/head.ejs') %>
+    <title>Rock Paper Scissors (Lizard Spock)</title>
+  </head>
+
+  <body style="height: 100%">
+    <div class="h-100 align-items-center justify-content-center">
+      <blockquote class="blockquote text-center">
+        <h1 class="display-5">Game On</h1>
+        <hr />
+      </blockquote>
+      <blockquote class="blockquote text-center">
+        <p class="m-1">Choose your weapon, <%= player %></p>
+        <br />
+      </blockquote>
+      <blockquote class="blockquote text-center">
+        <form action="/outcome" method="post">
+          <div class="d-grid gap-2 col-2 mx-auto">
+            <button
+              class="btn btn-primary"
+              id="0"
+              type="submit"
+              value="Rock"
+              name="playerChoice"
+            >
+              Rock
+            </button>
+            <button
+              class="btn btn-success"
+              id="1"
+              type="submit"
+              value="Paper"
+              name="playerChoice"
+            >
+              Paper
+            </button>
+            <button
+              class="btn btn-warning"
+              id="2"
+              type="submit"
+              value="Scissors"
+              name="playerChoice"
+            >
+              Scissors
+            </button>
+            <button
+              class="btn btn-danger"
+              id="3"
+              type="submit"
+              value="Lizard"
+              name="playerChoice"
+            >
+              Lizard
+            </button>
+            <button
+              class="btn btn-info"
+              id="4"
+              type="submit"
+              value="Spock"
+              name="playerChoice"
+            >
+              Spock
+            </button>
+          </div>
+        </form>
+        <p class="lead"><a href="/" class="link-secondary">go back</a></p>
+      </blockquote>
+    </div>
+  </body>
+</html>

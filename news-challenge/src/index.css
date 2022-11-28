@@ -1,0 +1,14 @@
+body {
+  background-image: "./images/bg.jpg";
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(113, 161, 161);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

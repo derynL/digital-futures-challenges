@@ -1,0 +1,28 @@
+.headline-body {
+  width: 50%;
+  background-color: rgba(224, 224, 224, 0.267);
+  border: 1px solid aquamarine;
+  margin-top: 1em;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 300;
+}
+p {
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+/* .thumbnail {
+  max-width: 100%;
+  display: block;
+  height: auto;
+} */
+/* 
+.headline {
+  display: block;
+  max-width: 50%;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 300;
+} */

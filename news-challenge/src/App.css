@@ -1,0 +1,14 @@
+main {
+  margin: 0;
+  border: 0;
+
+  color: rgb(21, 22, 22);
+  background-color: rgba(113, 161, 161, 0);
+}
+.container {
+  width: 70%;
+}
+#center {
+  padding: 10px 0;
+  text-align: center;
+}

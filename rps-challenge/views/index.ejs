@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 1.1rem; height: auto; margin: 2rem">
+  <head>
+    <%- include ('../views/head.ejs') %>
+    <!-- favicon -->
+    <!-- <link rel="icon" type="image/png" href="../favicon/logo.png" /> -->
+    <title>Rock Paper Scissors (Lizard Spock)</title>
+  </head>
+
+  <body>
+    <div class="mx-auto w-50 p-3 text-center">
+      <h3 class="text-info">ROCK PAPER SCISSORS LIZARD SPOCK</h3>
+      <h1>Welcome!</h1>
+      <hr />
+    </div>
+    <br /><br />
+    <div class="mx-auto w-50 p-3 text-left">
+      <h4>Play against Marvin</h4>
+      <form action="/onePlayer" method="post">
+        <div class="form-floating mb-3">
+          <input
+            type="text"
+            class="form-control"
+            id="floatingSinglePlayer"
+            placeholder="Enter your name"
+            name="player1"
+            required
+          />
+          <label for="floatingSinglePlayer">Player name</label>
+        </div>
+        <button
+          class="btn btn-primary"
+          type="submit"
+          value="onePlayer"
+          name="onePlayer"
+          required
+        >
+          PLAY ▷
+        </button>
+      </form>
+      <br />
+      <hr />
+
+      <!-- <h4>Play against a friend</h4>
+        <form action="/twoPlayers" method="post">
+          <div class="form-floating mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="floatingPlayerOne"
+              placeholder="Enter your name"
+              name="playerOne"
+              required
+            />
+            <label for="floatingPlayerOne">Player One name</label><br />
+
+          <div class="form-floating">
+            <input
+              type="text"
+              class="form-control"
+              id="floatingPlayerTwo"
+              placeholder="Enter your name"
+              name="playerTwo"
+              required
+            />
+            <label for="floatingPlayerTwo">Player Two name</label><br />
+          <button
+            class="btn btn-primary"
+            type="submit"
+            value="twoPlayers"
+            name="twoPlayers"
+            required
+          >
+          PLAY ▷
+          </button>
+        </form> -->
+    </div>
+  </body>
+</html>

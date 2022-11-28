@@ -1,0 +1,29 @@
+<html lang="en" style="font-size: 1.6rem; height: 100%">
+  <head>
+    <%- include ('../views/head.ejs') %>
+    <title>Rock Paper Scissors (Lizard Spock)</title>
+  </head>
+
+  <body style="height: 100%">
+    <div class="h-100 align-items-center justify-content-center">
+      <blockquote class="blockquote text-center">
+        <h1 class="display-5">Result</h1>
+        <hr />
+      </blockquote>
+      <blockquote class="blockquote text-center">
+        <p class="m-1 text-primary">You chose <%= humanChoice %></p>
+        <hr />
+      </blockquote>
+      <blockquote class="blockquote text-center">
+        <p class="m-1 text-danger">Marvin chose <%= machineChoice %></p>
+        <hr />
+      </blockquote>
+      <blockquote class="blockquote text-center">
+        <h2 class="text-info"><%= result %></h2>
+        <p class="lead">
+          <a href="/" class="link-secondary">play again</a>
+        </p>
+      </blockquote>
+    </div>
+  </body>
+</html>

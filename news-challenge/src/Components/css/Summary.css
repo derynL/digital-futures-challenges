@@ -1,0 +1,29 @@
+/* .body {
+  width: 100%;
+  text-align: start;
+  margin-top: 20px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  justify-content: center;
+  padding-left: 1em;
+  padding-right: 1em;
+} */
+
+.body {
+  width: 50%;
+  background-color: rgba(224, 224, 224, 0.267);
+  border: 1px solid aquamarine;
+  margin-top: 1em;
+  padding: 1rem;
+  text-align: center;
+  font-size: smaller;
+}
+p {
+  margin-left: 3em;
+  margin-right: 3em;
+}
