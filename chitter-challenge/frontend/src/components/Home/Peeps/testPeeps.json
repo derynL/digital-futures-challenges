@@ -1,0 +1,31 @@
+{
+  "peeps": [
+    {
+      "peepMsg": "First ever peep message. Also highly engaging, intelligent, witty, and not at all inflamatory. Whoop whoop.",
+      "date": "2022-11-29T15:48:12.874Z",
+      "peeperName": "peeperTheFirst",
+      "_id": "507f191e810c19729de860bd"
+    },
+    {
+      "peepMsg": "Second message",
+      "date": "2022-11-29T15:48:12.874Z",
+      "peeperName": "peeperTheFirst",
+      "_id": "507f191e810c19729de860be"
+    },
+    {
+      "peepMsg": "Third message for the Peep-Deck",
+      "date": "2022-11-29T15:48:12.874Z",
+      "peeperName": "peeperTheFirst",
+      "_id": "507f191e810c19729de860ca"
+    }
+  ],
+  "peepers": [
+    {
+      "_id": "507f191e810c19729de860be",
+      "fullName": "Tsar Peeper",
+      "username": "peeperTheFirst",
+      "email": "peeper@peepmail.com",
+      "password": "n0neofY0urbus1ne5s"
+    }
+  ]
+}

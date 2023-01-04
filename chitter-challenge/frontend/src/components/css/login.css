@@ -1,0 +1,32 @@
+.formDivDC {
+  margin: 10px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.inputDivDC {
+  margin: 5px;
+  padding: 2px;
+}
+small {
+  margin-left: 185px;
+}
+
+.fontAwesomeIcon {
+  margin-right: 2px;
+  padding-right: 2px;
+}
+
+label {
+  width: 150px;
+}
+
+input {
+  width: 350px;
+}
+
+button {
+  width: 350px;
+  margin-left: 170px;
+  margin-bottom: 20px;
+}

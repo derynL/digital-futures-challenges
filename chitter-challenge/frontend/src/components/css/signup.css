@@ -1,0 +1,14 @@
+div.vh-100 {
+  background-color: #eee;
+}
+h2 {
+  margin-top: 3px;
+}
+p {
+  font-size: medium;
+  margin-top: 2px;
+}
+form {
+  padding: 2px;
+  margin: 3px;
+}
